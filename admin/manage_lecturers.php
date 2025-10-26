@@ -246,7 +246,7 @@ if (isset($_GET['edit'])) {
 $all_courses = $pdo->query("SELECT * FROM courses ORDER BY course_code")->fetchAll(PDO::FETCH_ASSOC);
 ?>
 
-<div class="container mt-5">
+<div class="container mt-4">
     <h2 class="text-center mb-4">Manage Lecturers</h2>
     
     <?php if (!empty($error)): ?>

@@ -171,7 +171,7 @@ if (!file_exists($logo_file_path)) {
 ob_end_flush();
 ?>
 
-<div class="container mt-5">
+<div class="container mt-4">
     <h2 class="text-center mb-4">View Accepted Scores</h2>
     
     <?php if (isset($_GET['error']) && $_GET['error'] == 'missing_params'): ?>

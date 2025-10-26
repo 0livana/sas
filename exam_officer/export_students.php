@@ -87,7 +87,7 @@ $university_logo = "../images/logo.png"; // Update with your actual logo path
 ob_end_flush();
 ?>
 
-<div class="container mt-5">
+<div class="container mt-4">
     <h2 class="text-center mb-4">Export Students List</h2>
     
     <div class="card mb-4">

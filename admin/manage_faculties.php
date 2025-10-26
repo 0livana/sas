@@ -76,7 +76,7 @@ if (isset($_GET['edit'])) {
 }
 ?>
 
-<div class="container mt-5">
+<div class="container mt-4">
     <h2 class="text-center mb-4">Manage Faculties</h2>
     
     <?php if (!empty($error)): ?>

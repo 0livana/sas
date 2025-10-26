@@ -20,7 +20,7 @@ $stmt->execute([$_SESSION['user_id']]);
 $courses = $stmt->fetchAll(PDO::FETCH_ASSOC);
 ?>
 
-<div class="container mt-5">
+<div class="container mt-4">
     <h2 class="text-center mb-4">Lecturer Dashboard</h2>
     
     <div class="row mb-4">

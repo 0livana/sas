@@ -282,7 +282,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['upload_scores'])) {
 ob_end_flush();
 ?>
 
-<div class="container mt-5">
+<div class="container mt-4">
     <h2 class="text-center mb-4">Upload Scores</h2>
     
     <?php if (!empty($error)): ?>

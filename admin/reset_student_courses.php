@@ -230,7 +230,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['bulk_reset'])) {
     </style>
 </head>
 <body>
-<div class="container mt-5">
+<div class="container mt-4">
     <h2 class="text-center mb-4"><i class="fas fa-sync-alt icon"></i>Reset Student Registered Courses</h2>
     
     <?php if (!empty($error)): ?>

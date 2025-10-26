@@ -237,7 +237,7 @@ if (isset($_GET['reset_student_score'])) {
     </style>
 </head>
 <body>
-<div class="container mt-5">
+<div class="container mt-4">
     <h2 class="text-center mb-4"><i class="fas fa-sync-alt icon"></i>Reset Lecturer Uploaded/Accepted Scores</h2>
     
     <?php if (!empty($error)): ?>

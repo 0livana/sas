@@ -398,7 +398,7 @@ if (isset($_GET['edit'])) {
     </style>
 </head>
 <body>
-<div class="container mt-5">
+<div class="container mt-4">
     <h2 class="text-center mb-4"><i class="fas fa-users icon"></i>Manage Students</h2>
     
     <?php if (!empty($error)): ?>

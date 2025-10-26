@@ -11,7 +11,7 @@ $lecturers_count = $pdo->query("SELECT COUNT(*) FROM lecturers")->fetchColumn();
 $students_count = $pdo->query("SELECT COUNT(*) FROM students")->fetchColumn();
 ?>
 
-<div class="container mt-5">
+<div class="container mt-4">
     <h2 class="text-center page-title">Admin Dashboard</h2>
     
     <div class="row mb-4">

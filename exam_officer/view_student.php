@@ -169,7 +169,7 @@ $error = $_GET['error'] ?? 0;
 ob_end_flush();
 ?>
 
-<div class="container mt-5">
+<div class="container mt-4">
     <?php if (!$student): ?>
         <div class="alert alert-danger">Student not found!</div>
     <?php else: ?>

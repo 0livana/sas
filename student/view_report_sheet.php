@@ -74,7 +74,7 @@ if ($student) {
 }
 ?>
 
-<div class="container mt-5">
+<div class="container mt-4">
     <h2 class="text-center mb-4">My Report Sheet</h2>
     
     <div class="card mb-4">
