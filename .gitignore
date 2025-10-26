@@ -1,1 +1,10 @@
 *.pptx
+.env
+config/*.json
+node_modules/
+vendor/
+*.key
+*.pem
+*.db
+.DS_Store
+.sql
