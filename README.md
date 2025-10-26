@@ -1,12 +1,13 @@
-Introduction
+# Introduction
+
 The Student Assessment System (SAS) is a web-based application designed to manage student assessments in Dennis Osadebay University (DOU). This system allows administrators to manage users, faculties, departments, and courses; lecturers to upload and export student scores; exam officers to review, accept, and prepare student report sheets; and students to register courses and view their results.
 
-The application is built using:
+## The application is built using:
 MySQL for the database to store user data, faculties, departments, courses, scores, etc.
 HTML for the structure and UI, with CSS for styling (including a modern, responsive design with a fixed navbar and footer on all pages, university logo and name, background images especially on the login page, and simple navigation).
 PHP for the backend logic, handling user authentication, data manipulation, file uploads (e.g., passports), and interactions with the database.
 
-Key features include:
+## Key features include:
 Secure login for different user roles (Admin, Lecturer, Exam Officer, Student).
 Role-based dashboards with functionalities as specified.
 Password management (default passwords, changes, resets).
@@ -14,8 +15,8 @@ File uploads for passports and exports in CSV format.
 Automated calculations for scores, grades, GPA, etc.
 Print-friendly report sheets.
 
-Database Schema
-Key Tables:
+## Database Schema
+#### Key Tables:
 users - User authentication details
 students - Student information
 lecturers - Lecturer information
@@ -30,13 +31,13 @@ lecturer_courses - Courses assigned to lecturers
 Student Courses - Student registered courses
 levels - various Levels in the University
 
-Relationships:
+#### Relationships:
 One-to-many relationship between faculties and departments
 Many-to-many relationship between students and courses
 One-to-many relationship between lecturers and courses
 
 
-Setup Steps:
+## Setup Steps:
 Install XAMPP (or similar) for Apache, MySQL, PHP.
 Start Apache and MySQL.
 Create folder sas in htdocs.
@@ -48,8 +49,8 @@ Use Vscode for writing ad editing the codes
 Access http://localhost/sas/index.php.
 Login as admin (username: admin@dou.edu, pass: admin123), create faculties, etc., then users.
 
-Folder Arrangement:
-student_assessment_system/
+## Folder Arrangement:
+#### student_assessment_system/
 ├── index.php
 ├── unauthorized.php
 ├── logout.php
