@@ -10,11 +10,24 @@ $exam_officers_count = $pdo->query("SELECT COUNT(*) FROM exam_officers")->fetchC
 $lecturers_count = $pdo->query("SELECT COUNT(*) FROM lecturers")->fetchColumn();
 $students_count = $pdo->query("SELECT COUNT(*) FROM students")->fetchColumn();
 ?>
+<head>
+    <style>
+        body {
+  padding-top: 10vh;
+}
+@media (max-width: 768px) {
+  body {
+    padding-top: 13vh;
+    padding-bottom: 8vh;
+  }
+}
 
-<div class="container mt-4">
+    </style>
+</head>
+<div class="container">
     <h2 class="text-center page-title">Admin Dashboard</h2>
     
-    <div class="row mb-4">
+    <div class="row" style="margin-top:3vh;">
         <div class="col-md-4 mb-4">
             <div class="card text-center bg-primary text-white">
                 <div class="card-body">

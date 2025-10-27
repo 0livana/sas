@@ -235,9 +235,21 @@ if (isset($_GET['reset_student_score'])) {
             text-align: center;
         }
     </style>
+    <!-- my own style -->
+    <style>
+        body {
+  padding-top: 10vh;
+}
+@media (max-width: 768px) {
+  body {
+    padding-top: 14vh;
+  }
+}
+
+    </style>
 </head>
 <body>
-<div class="container mt-4">
+<div class="container">
     <h2 class="text-center mb-4"><i class="fas fa-sync-alt icon"></i>Reset Lecturer Uploaded/Accepted Scores</h2>
     
     <?php if (!empty($error)): ?>

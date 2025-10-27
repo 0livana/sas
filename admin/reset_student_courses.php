@@ -228,9 +228,21 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['bulk_reset'])) {
             font-weight: 500;
         }
     </style>
+    <!-- my own style -->
+    <style>
+        body {
+  padding-top: 10vh;
+}
+@media (max-width: 768px) {
+  body {
+    padding-top: 14vh;
+  }
+}
+
+    </style>
 </head>
 <body>
-<div class="container mt-4">
+<div class="container">
     <h2 class="text-center mb-4"><i class="fas fa-sync-alt icon"></i>Reset Student Registered Courses</h2>
     
     <?php if (!empty($error)): ?>

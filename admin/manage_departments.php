@@ -110,7 +110,20 @@ if (isset($_GET['edit'])) {
 }
 ?>
 
-<div class="container mt-4">
+<head>
+    <style>
+        body {
+  padding-top: 10vh;
+}
+@media (max-width: 768px) {
+  body {
+    padding-top: 13vh;
+  }
+}
+
+    </style>
+</head>
+<div class="container">
     <h2 class="text-center mb-4">Manage Departments</h2>
     
     <?php if (!empty($error)): ?>

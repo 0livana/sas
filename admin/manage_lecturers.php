@@ -245,8 +245,20 @@ if (isset($_GET['edit'])) {
 // Get all courses for initial load (will be filtered by JavaScript based on faculty selection)
 $all_courses = $pdo->query("SELECT * FROM courses ORDER BY course_code")->fetchAll(PDO::FETCH_ASSOC);
 ?>
+<head>
+    <style>
+        body {
+  padding-top: 10vh;
+}
+@media (max-width: 768px) {
+  body {
+    padding-top: 13vh;
+  }
+}
 
-<div class="container mt-4">
+    </style>
+</head>
+<div class="container">
     <h2 class="text-center mb-4">Manage Lecturers</h2>
     
     <?php if (!empty($error)): ?>

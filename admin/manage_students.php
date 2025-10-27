@@ -396,9 +396,22 @@ if (isset($_GET['edit'])) {
             font-weight: bold;
         }
     </style>
+  <!-- my own style -->
+    <style>
+        body {
+  padding-top: 10vh;
+}
+@media (max-width: 768px) {
+  body {
+    padding-top: 14vh;
+  }
+}
+
+    </style>
+
 </head>
 <body>
-<div class="container mt-4">
+<div class="container">
     <h2 class="text-center mb-4"><i class="fas fa-users icon"></i>Manage Students</h2>
     
     <?php if (!empty($error)): ?>
