@@ -74,7 +74,20 @@ if ($student) {
 }
 ?>
 
-<div class="container mt-4">
+<head>
+    <style>
+        body {
+  padding-top: 10vh;
+}
+@media (max-width: 768px) {
+  body {
+    padding-top: 13vh;
+  }
+}
+
+    </style>
+</head>
+<div class="container">
     <h2 class="text-center mb-4">My Report Sheet</h2>
     
     <div class="card mb-4">

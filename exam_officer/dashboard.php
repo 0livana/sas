@@ -131,7 +131,7 @@ try {
                     <h5 class="card-title">Pending Results</h5>
                     <h3 class="text-warning"><?php echo $pending_count; ?></h3>
                     <p class="card-text">Results awaiting acceptance</p>
-                    <a href="pending_results.php" class="btn btn-warning">View Pending Results</a>
+                    <a href="pending_results.php" class="btn btn-info">View Pending Results</a>
                 </div>
             </div>
         </div>

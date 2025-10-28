@@ -94,7 +94,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                          <a href="https://www.dou.edu.ng/" class="nav-link">DOU_PAGE</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://www.dou.edu.ng/doupostutme/login.aspx">STUDENT_PORTAL</a>
+                        <a class="nav-link" href="https://myportal.dou.edu.ng/">STUDENT_PORTAL</a>
                     </li>
                 </ul>
             </div>

@@ -23,7 +23,20 @@ $stmt->execute([$student['id']]);
 $result_count = $stmt->fetch(PDO::FETCH_ASSOC)['result_count'];
 ?>
 
-<div class="container mt-4">
+<head>
+    <style>
+        body {
+  padding-top: 10vh;
+}
+@media (max-width: 768px) {
+  body {
+    padding-top: 13vh;
+  }
+}
+
+    </style>
+</head>
+<div class="container">
     <h2 class="text-center mb-4">Student Dashboard</h2>
     
     <div class="row mb-4">

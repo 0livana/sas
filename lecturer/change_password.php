@@ -34,11 +34,24 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 }
 ?>
 
-<div class="container mt-4">
+<head>
+    <style>
+        body {
+  padding-top: 10vh;
+}
+@media (max-width: 768px) {
+  body {
+    padding-top: 13vh;
+  }
+}
+
+    </style>
+</head>
+<div class="container">
     <div class="row justify-content-center">
         <div class="col-md-6">
             <div class="card">
-                <div class="card-header">
+                <div class="card-header mb-3">
                     <h5 class="card-title">Change Password</h5>
                 </div>
                 <div class="card-body">
