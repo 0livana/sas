@@ -49,7 +49,9 @@ The Student Assessment System (SAS) is a web-based application designed to manag
 - Login as admin (username: admin@dou.edu, pass: admin123), create faculties, etc., then users.
 
 ## Free Hosted Link:
-     https://dou-sarp.infy.uk
+   [ https://dou-sarp.infy.uk](https://dou-sarp.infy.uk)
+
+   [DOU SARP](https://dou-sarp.free.nf/?i=1)
 
 ## Folder Arrangement:
 #### student_assessment_system/
